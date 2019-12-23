@@ -102,12 +102,6 @@
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\UIHelper\UIHelper\Helper.csproj">
-      <Project>{8df216e5-346e-4555-805e-0ba472e4cbc4}</Project>
-      <Name>Helper</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
